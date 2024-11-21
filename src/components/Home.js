@@ -16,7 +16,7 @@ function Home() {
     <div>
                     <div className="navbar">
                       <div className="navbar-left">
-                        <p>Abc college</p>
+                        <p>Jawaharlal University</p>
                       </div>
                       <div className="navbar-right">
                         <Link to="/signup" className="nav-link">
@@ -30,9 +30,10 @@ function Home() {
 
                     <div className="college-info">
       <div className="college-text">
-        <h1>ABC College</h1>
+        <h1>Welcome to Alumify</h1>
+        <h3>"Reconnect. Relive. Rediscover."</h3>
         <p>
-          ABC College is a prestigious institution known for its academic excellence and vibrant campus life. Our alumni network spans across the globe, and we offer a wide range of courses designed to equip students with the skills and knowledge they need to succeed.
+        Welcome to our Alumni Website, a place where cherished memories meet new opportunities! This platform is your gateway to rekindle old friendships, celebrate shared achievements, and stay connected with your alma mater. Explore our Alumni Directory to find classmates, access resources to support your career growth, and contribute to the vibrant legacy of our community.
         </p>
       </div>
     </div>

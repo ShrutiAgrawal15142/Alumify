@@ -26,7 +26,10 @@ const Signin = () => {
 
   return (
     <>
-    <h1 ><Link className='home' to="/">ABC COLLEGE</Link></h1>
+    <div className ="heading"> 
+      <h1 ><Link className='home' to="/">Alumni portal</Link></h1>
+    </div>
+    
     <div className="login-page">
       
       <div className="login-container">
@@ -39,7 +42,7 @@ const Signin = () => {
 
         <div className="login-right">
 
-          <h1>College Website Signin</h1>
+          <h1>Signin</h1>
 
           <div className="login-form">
             <form onSubmit={handleLogin}>

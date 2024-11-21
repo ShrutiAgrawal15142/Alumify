@@ -30,8 +30,9 @@ const Signup = () => {
 
   return (
     <>
-    <h1 ><Link className='home' to="/">ABC COLLEGE</Link></h1>
-    
+    <div className ="heading"> 
+      <h1 ><Link className='home' to="/">Alumni portal</Link></h1>
+    </div>
     <div className='signupcontainer'>
  
 
@@ -45,7 +46,7 @@ const Signup = () => {
 
         <div className="signup-right">
        
-         <h1>College Website SignUp</h1>
+         <h1>SignUp</h1>
           <div className="signup-form">
           <h2>{role.charAt(0).toUpperCase() + role.slice(1)} Signup</h2>
           <form onSubmit={handlesignup}>

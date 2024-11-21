@@ -9,6 +9,17 @@
     background: linear-gradient(to bottom, #ffffff, #000000); 
     
   }
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #38a69f;
+  padding: 20px 20px;
+  color: #dddddd;
+}
+.heading h1{
+  color:white;
+}
 
 .signup-page {
     display: flex;
@@ -31,7 +42,7 @@
   
   .signup-left {
     flex: 1;
-    background: url('../Images/pexels-keira-burton-6147276.jpg') no-repeat center center;
+    background: url('../Images/image2.jpeg') no-repeat center center;
     background-size: cover;
     display: flex;
     height: 100%;
@@ -68,7 +79,7 @@
   
   .signup-right h1 {
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #333333;
   }
   
@@ -94,7 +105,7 @@
   .signup-form button {
     width: 100%;
     padding: 0.75rem;
-    background-color: #4caf50;
+    background-color:  #38a69f;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -110,13 +121,13 @@
   }
   
   .signup-form button:hover {
-    background-color: #45a049;
+    background-color:  #6dc1bb;
     transition: background-color 0.3s ease;
   }
   
   .signup-link {
     padding-top: 10px;
-    color: #4caf50;
+    color:  #38a69f;
   }
   .home{
     color: black;

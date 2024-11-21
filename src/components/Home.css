@@ -27,7 +27,7 @@
 /* CollegeInfo.css */
 .college-info {
   height: 90vh;
-  background-image: url('../Images/pexels-keira-burton-6147276.jpg');
+  background-image: url('../Images/backImage.jpeg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -48,15 +48,26 @@
 
 .college-text h1 {
   margin: 10px;
-  font-size: 5rem;
+  font-size: 3rem;
   width: fit-content;
-  color: #ffffff;
+  color:#38a69f;
   padding: 3px;
   background: rgba(0, 0, 0, 0.2);
 }
 
+.college-text h3{
+  margin: 10px;
+  font-size: 2rem;
+  width: fit-content;
+  color: white;
+  padding: 3px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: large;
+  font-style: italic;
+}
+
 .college-text p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #ffffff; 
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);

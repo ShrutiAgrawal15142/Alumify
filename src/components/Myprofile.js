@@ -1,26 +1,26 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import './Myprofile.css'; // Import the CSS file
-import Popup from './Messages';
-import { Link } from 'react-router-dom';
+// import Popup from './Messages';
+// import { Link } from 'react-router-dom';
 
 
 // Function to group messages by 'id'
-const groupMessagesById = (messages) => {
-    const grouped = messages.reduce((acc, message) => {
-        if (!acc[message.id]) {
-            acc[message.id] = [];
-        }
-        acc[message.id].push(message);
-        return acc;
-    }, {});
-    return grouped;
-};
+// const groupMessagesById = (messages) => {
+//     const grouped = messages.reduce((acc, message) => {
+//         if (!acc[message.id]) {
+//             acc[message.id] = [];
+//         }
+//         acc[message.id].push(message);
+//         return acc;
+//     }, {});
+//     return grouped;
+// };
 
 export const Myprofile = () => {
     const [token, setToken] = useState('');
     const [profile, setProfile] = useState({});
-    const [expandedGroups, setExpandedGroups] = useState({});
+    // const [expandedGroups, setExpandedGroups] = useState({});
     const [loading, setLoading] = useState(true);
     
     
@@ -48,14 +48,14 @@ export const Myprofile = () => {
     }, [token]);
 
     // Group messages by their 'id'
-    const groupedMessages = profile.messages ? groupMessagesById(profile.messages) : {};
+    // const groupedMessages = profile.messages ? groupMessagesById(profile.messages) : {};
 
-    const toggleGroup = (id) => {
-        setExpandedGroups((prev) => ({
-            ...prev,
-            [id]: !prev[id]
-        }));
-    };
+    // const toggleGroup = (id) => {
+    //     setExpandedGroups((prev) => ({
+    //         ...prev,
+    //         [id]: !prev[id]
+    //     }));
+    // };
 
     if (loading) {
         return <div>Loading...</div>;
@@ -103,7 +103,7 @@ export const Myprofile = () => {
                     </ul>
                 </div>
             </div>
-            <div className="myprofile-messages">
+            {/* <div className="myprofile-messages">
                 <strong>Messages:</strong>
                 {Object.keys(groupedMessages).length > 0 ? (
                     Object.keys(groupedMessages).map((id) => (
@@ -136,7 +136,8 @@ export const Myprofile = () => {
                     <div>No messages available</div>
                 )}
             </div>
-           
+            */}
         </div>
     );
-};
+}
+

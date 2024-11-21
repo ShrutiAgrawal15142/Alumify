@@ -8,6 +8,26 @@
   height: 100vh;
   background: linear-gradient(to bottom, #ffffff, #000000); /* Gradient background */
 }
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #38a69f;
+  padding: 20px 20px;
+  color: #dddddd;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #38a69f;
+  padding: 20px 20px;
+  color: #dddddd;
+}
+.heading h1{
+  color:white;
+}
 
 .login-page {
   width: 100%;
@@ -28,14 +48,14 @@
 
 .login-left {
   flex: 1;
-  background: url('../Images/pexels-keira-burton-6147276.jpg') no-repeat center center;
+  background: url('../Images/image2.jpeg') no-repeat center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  color:white;
+  text-shadow: 2px 2px 4px lightgray;
 }
 
 .login-left h1 {
@@ -47,7 +67,7 @@
   position: relative;
   top: 15px;
   font-size: 1.9rem;
-  color: #ffffff;
+  color: white;
   left: 10px;
 }
 
@@ -63,7 +83,7 @@
 
 .login-right h1 {
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #333333;
 }
 
@@ -89,7 +109,7 @@
 .login-form button {
   width: 50%;
   padding: 0.75rem;
-  background-color: #4caf50;
+  background-color:  #38a69f;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -99,12 +119,17 @@
 }
 
 .login-form button:hover {
-  background-color: #45a049;
+  background-color:  #89ddd8;
 }
 
 .signup-link {
   padding-top: 10px;
-  color: #4caf50;
+  color:  #38a69f;
+}
+
+.signup-link p{
+  padding-top: 10px;
+  color:  #38a69f;
 }
 .home{
   position: relative;

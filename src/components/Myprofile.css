@@ -17,15 +17,6 @@
   
 }
 
-.myprofile-messages {
-  padding: 20px;
- 
-  flex: 30%;
-  overflow-y: auto; /* Scrollable */
-  padding-left: 20px; /* Space for scrollbar */
-  border-left: 1px solid #6c6a6a;
-}
-
 .myprofile-header {
   display: flex;
   align-items: center;
@@ -79,43 +70,6 @@
   list-style-type: none;
 }
 
-
-
-
-
-
-.myprofile-messages strong {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 1.2em;
-  color: #333;
-}
-
-.myprofile-messages h4 {
-  cursor: pointer;
-  margin: 0;
-  font-size: 1.1em;
-  color: #007bff;
-}
-
-.myprofile-messages ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.myprofile-messages li {
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 8px;
-  background-color: #fff;
-}
-
-.myprofile-messages div {
-  margin-bottom: 5px;
-  font-size: 0.9em;
-}
 
 .capitalize {
   text-transform: capitalize;
